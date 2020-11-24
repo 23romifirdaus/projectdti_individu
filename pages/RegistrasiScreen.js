@@ -1,7 +1,7 @@
 // In App.js in a new project
 
 import React, {useState,useEffect} from 'react';
-import Axios from 'axios';
+import axios from 'axios';
 import {
   SafeAreaView,
   StyleSheet,
@@ -42,8 +42,8 @@ const RegistrasiScreen = ({ navigation }) => {
       nomor_handphone: nomorHandphone
     })
     .then(function (response) {
-      if(response.navigate.data.status == "true"){
-        navigate.navigate('LoginScreen');
+      if(response.data.status == "true"){
+        navigation.navigate('LoginScreen');
       }
       else {
         ToastAndroid.show(response.data.msg, ToastAndroid.SHORT);
@@ -58,21 +58,8 @@ const RegistrasiScreen = ({ navigation }) => {
 
   return (
     <View
-    style={{
-      flex: 1,
-    }}
-    >
-    <View
       style={{
-        flex: 1,
-        justifyContent: "flex-end",
-        alignItems: "center"
-      }}
-    >
-    </View>
-    <View
-      style={{
-        flex: 3,
+        marginTop: 100,
         marginHorizontal: 8
       }}
     >
@@ -121,11 +108,10 @@ const RegistrasiScreen = ({ navigation }) => {
       onChangeText={ text => setNomorHandphone(text)}
       />
       <Button 
-      title="SUBMIT"
-      onPress={() => submitRegistrasi()} 
+      title="Submit"
+      onPress={() => {submitRegistrasi()}} 
       />
       </View>
-    </View>
   );
 }
 
