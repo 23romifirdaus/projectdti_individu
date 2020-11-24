@@ -36,7 +36,7 @@ const QRPayConfirmScreen = ({ navigation }) => {
       
       <View style={[{ width: "98%", height: 100, marginLeft: 4, margin: 100, justifyContent: 'center', alignItems: "center" }]}>
         <Image style={styles.icon} source={require('../img/pembayaran.png')}/> 
-        <Text>Rp. 60.000</Text>
+        <Text style={[{fontSize: 20}]}>Rp. 60.000</Text>
         <View
         style={{
           width: 300,
@@ -47,9 +47,9 @@ const QRPayConfirmScreen = ({ navigation }) => {
         />
         </View>
         <View style={[{ width: "98%", height: 140, marginLeft: 4, backgroundColor: '#4982C1', justifyContent: 'center', alignItems: "center" }]}>
-        <Text>Pembayaran Kepada :</Text>
-        <Text>DTI Telkom University</Text>
-        <Text>Jl. Telekomunikasi, Kota Bandung</Text>
+        <Text style={[{fontSize: 20}]}>Pembayaran Kepada :</Text>
+        <Text style={[{fontSize: 20}]}>DTI Telkom University</Text>
+        <Text style={[{fontSize: 20}]}>Jl. Telekomunikasi, Kota Bandung</Text>
         </View>
         <View style={[{ width: "98%", height: 100, marginLeft: 4, justifyContent: 'center' }]}>
        

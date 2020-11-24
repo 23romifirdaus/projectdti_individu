@@ -37,7 +37,7 @@ const TransferScreen = ({ navigation }) => {
     </View>
     <View
       style={{
-        flex: 3,
+        flex: 10,
         marginHorizontal: 8,
         backgroundColor: 'white'
       }}

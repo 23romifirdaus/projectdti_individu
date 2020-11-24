@@ -34,6 +34,15 @@ import PembayaranBerhasilScreen from './pages/PembayaranBerhasilScreen';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
+const IconBottom = (props) => {
+  const { color, focused } = props.data
+  let colorSelected = focused ? color : 'grey'
+  return (
+      <View>
+          <Image source={props.image} style={{ width: 40, height: 40, tintColor: colorSelected }} />
+      </View>
+  )
+}
 
 function LoginStack() {
   return (
@@ -254,10 +263,35 @@ function PembayaranBerhasilStack() {
 
 function HomeTabs() {
   return (
-    <Tab.Navigator>
-      <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="Transfer Histori" component={TransferHistoriScreen} />
-      <Tab.Screen name="Profile" component={ProfileScreen} />
+
+    
+    <Tab.Navigator tabBarOptions={{
+      activeTintColor: '#e91e63',
+      style: { height: 60 }
+  }}
+  >
+      <Tab.Screen name="Home" component={HomeScreen}
+                options={{
+                    title: "Home",
+                    tabBarIcon: (props) => (
+                        <IconBottom data={props} image={require('./img/icon_home.png')} />
+                    )
+                }}
+            />
+      <Tab.Screen name="Setting" component={TransferHistoriScreen}
+                options={{
+                    title: "TransferHistory",
+                    tabBarIcon: (props) => (
+                        <IconBottom data={props} image={require('./img/icon_historytransfer.png')} />
+                    )
+                }} />
+      <Tab.Screen name="Profile" component={ProfileScreen}
+                options={{
+                    title: "Profile",
+                    tabBarIcon: (props) => (
+                        <IconBottom data={props} image={require('./img/icon_profile.png')} />
+                    )
+                }} />
     </Tab.Navigator>
   );
 }

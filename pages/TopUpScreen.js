@@ -37,7 +37,7 @@ const TopUpScreen = ({ navigation }) => {
     </View>
     <View
       style={{
-        flex: 3,
+        flex: 8,
         marginHorizontal: 8,
         backgroundColor: 'white'
       }}

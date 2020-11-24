@@ -33,40 +33,61 @@ const styles = StyleSheet.create({
 const TransferHistoriScreen = ({ navigation }) => {
   return (
       <ScrollView style={styles.container}>
-          <View style={{flex:1,margin:20,backgroundColor:'white'}}>
-          <Text style={{fontSize:16,marginTop:20,marginLeft:70}}>Rp100.000              20/08/2020</Text>
-          <Text style={{fontSize:14,marginLeft:70}}>Transfer Ke 085213827514</Text>
-
-          <Text style={{fontSize:16,marginTop:20,marginLeft:70}}>Rp100.000              20/08/2020</Text>
-          <Text style={{fontSize:14,marginLeft:70}}>Transfer Ke 085213827514</Text>
-
-          <Text style={{fontSize:16,marginTop:20,marginLeft:70}}>Rp100.000              20/08/2020</Text>
-          <Text style={{fontSize:14,marginLeft:70}}>Transfer Ke 085213827514</Text>
-
-          <Text style={{fontSize:16,marginTop:20,marginLeft:70}}>Rp100.000              20/08/2020</Text>
-          <Text style={{fontSize:14,marginLeft:70}}>Transfer Ke 085213827514</Text>
-
-          <Text style={{fontSize:16,marginTop:20,marginLeft:70}}>Rp100.000              20/08/2020</Text>
-          <Text style={{fontSize:14,marginLeft:70}}>Transfer Ke 085213827514</Text>
-
-          <Text style={{fontSize:16,marginTop:20,marginLeft:70}}>Rp100.000              20/08/2020</Text>
-          <Text style={{fontSize:14,marginLeft:70}}>Transfer Ke 085213827514</Text>
-
-          <Text style={{fontSize:16,marginTop:20,marginLeft:70}}>Rp100.000              20/08/2020</Text>
-          <Text style={{fontSize:14,marginLeft:70}}>Transfer Ke 085213827514</Text>
-
-          <Text style={{fontSize:16,marginTop:20,marginLeft:70}}>Rp100.000              20/08/2020</Text>
-          <Text style={{fontSize:14,marginLeft:70}}>Transfer Ke 085213827514</Text>
-
-          <Text style={{fontSize:16,marginTop:20,marginLeft:70}}>Rp100.000              20/08/2020</Text>
-          <Text style={{fontSize:14,marginLeft:70}}>Transfer Ke 085213827514</Text>
-
-          <Text style={{fontSize:16,marginTop:20,marginLeft:70}}>Rp100.000              20/08/2020</Text>
-          <Text style={{fontSize:14,marginLeft:70}}>Transfer Ke 085213827514</Text>
-
-          <Text style={{fontSize:16,marginTop:20,marginLeft:70}}>Rp100.000              20/08/2020</Text>
-          <Text style={{fontSize:14,marginLeft:70}}>Transfer Ke 085213827514</Text>
+          <View style={{flex:1,margin:5,backgroundColor:'white', borderRadius: 5, justifyContent: "space-between", marginLeft: 20, marginRight: 20}}>
+          <Text style={{fontSize:20,marginLeft:50, marginTop:20,}}>Rp100.000</Text>
+          <Text style={{fontSize:16,marginLeft:50, marginBottom:20}}>Transfer Ke 082219441601</Text>
           </View>
+
+          <View style={{flex:1,margin:5,backgroundColor:'white', borderRadius: 5, justifyContent: "space-between", marginLeft: 20, marginRight: 20}}>
+          <Text style={{fontSize:20,marginLeft:50, marginTop:20,}}>Rp100.000</Text>
+          <Text style={{fontSize:16,marginLeft:50, marginBottom:20}}>Transfer Ke 082219441601</Text>
+          </View>
+
+          <View style={{flex:1,margin:5,backgroundColor:'white', borderRadius: 5, justifyContent: "space-between", marginLeft: 20, marginRight: 20}}>
+          <Text style={{fontSize:20,marginLeft:50, marginTop:20,}}>Rp100.000</Text>
+          <Text style={{fontSize:16,marginLeft:50, marginBottom:20}}>Transfer Ke 082219441601</Text>
+          </View>
+
+          <View style={{flex:1,margin:5,backgroundColor:'white', borderRadius: 5, justifyContent: "space-between", marginLeft: 20, marginRight: 20}}>
+          <Text style={{fontSize:20,marginLeft:50, marginTop:20,}}>Rp100.000</Text>
+          <Text style={{fontSize:16,marginLeft:50, marginBottom:20}}>Transfer Ke 082219441601</Text>
+          </View>
+
+          <View style={{flex:1,margin:5,backgroundColor:'white', borderRadius: 5, justifyContent: "space-between", marginLeft: 20, marginRight: 20}}>
+          <Text style={{fontSize:20,marginLeft:50, marginTop:20,}}>Rp100.000</Text>
+          <Text style={{fontSize:16,marginLeft:50, marginBottom:20}}>Transfer Ke 082219441601</Text>
+          </View>
+
+          <View style={{flex:1,margin:5,backgroundColor:'white', borderRadius: 5, justifyContent: "space-between", marginLeft: 20, marginRight: 20}}>
+          <Text style={{fontSize:20,marginLeft:50, marginTop:20,}}>Rp100.000</Text>
+          <Text style={{fontSize:16,marginLeft:50, marginBottom:20}}>Transfer Ke 082219441601</Text>
+          </View>
+
+          <View style={{flex:1,margin:5,backgroundColor:'white', borderRadius: 5, justifyContent: "space-between", marginLeft: 20, marginRight: 20}}>
+          <Text style={{fontSize:20,marginLeft:50, marginTop:20,}}>Rp100.000</Text>
+          <Text style={{fontSize:16,marginLeft:50, marginBottom:20}}>Transfer Ke 082219441601</Text>
+          </View>
+
+          <View style={{flex:1,margin:5,backgroundColor:'white', borderRadius: 5, justifyContent: "space-between", marginLeft: 20, marginRight: 20}}>
+          <Text style={{fontSize:20,marginLeft:50, marginTop:20,}}>Rp100.000</Text>
+          <Text style={{fontSize:16,marginLeft:50, marginBottom:20}}>Transfer Ke 082219441601</Text>
+          </View>
+
+          <View style={{flex:1,margin:5,backgroundColor:'white', borderRadius: 5, justifyContent: "space-between", marginLeft: 20, marginRight: 20}}>
+          <Text style={{fontSize:20,marginLeft:50, marginTop:20,}}>Rp100.000</Text>
+          <Text style={{fontSize:16,marginLeft:50, marginBottom:20}}>Transfer Ke 082219441601</Text>
+          </View>
+
+          <View style={{flex:1,margin:5,backgroundColor:'white', borderRadius: 5, justifyContent: "space-between", marginLeft: 20, marginRight: 20}}>
+          <Text style={{fontSize:20,marginLeft:50, marginTop:20,}}>Rp100.000</Text>
+          <Text style={{fontSize:16,marginLeft:50, marginBottom:20}}>Transfer Ke 082219441601</Text>
+          </View>
+          
+          <View style={{flex:1,margin:5,backgroundColor:'white', borderRadius: 5, justifyContent: "space-between", marginLeft: 20, marginRight: 20}}>
+          <Text style={{fontSize:20,marginLeft:50, marginTop:20,}}>Rp100.000</Text>
+          <Text style={{fontSize:16,marginLeft:50, marginBottom:20}}>Transfer Ke 082219441601</Text>
+          </View>
+
         </ScrollView>
   );
 }

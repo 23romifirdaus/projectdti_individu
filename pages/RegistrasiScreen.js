@@ -1,6 +1,6 @@
 // In App.js in a new project
 
-import * as React from 'react';
+import React, {useState,useEffect} from 'react';
 import Axios from 'axios';
 import {
   SafeAreaView,

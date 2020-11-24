@@ -28,7 +28,7 @@ const TransferBerhasilScreen = ({ navigation }) => {
     >
     <View
       style={{
-        flex: 1,
+        flex: 2,
         justifyContent: "flex-end",
         alignItems: "center",
         backgroundColor: 'white'
@@ -37,7 +37,7 @@ const TransferBerhasilScreen = ({ navigation }) => {
     </View>
     <View
       style={{
-        flex: 1,
+        flex: 3,
         marginHorizontal: 8,
         backgroundColor: 'white'
       }}

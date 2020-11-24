@@ -1,6 +1,7 @@
 // In App.js in a new project
 
 import * as React from 'react';
+import Axios from 'axios';
 import {
   SafeAreaView,
   StyleSheet,
@@ -32,7 +33,7 @@ const LoginScreen = ({ navigation }) => {
           alignItems: "center"
         }}
       >
-        <Text style={{ textAlign: "center", fontSize: 30, marginBottom: 20, color: "blue"}}>e-money</Text>
+        <Text style={{ textAlign: "center", fontSize: 30, marginBottom: 20, color: "#4982C1"}}>e-money</Text>
       </View>
         
       <View
@@ -63,14 +64,15 @@ const LoginScreen = ({ navigation }) => {
         />
         
 
-        <Button onPress={() => navigation.navigate('Home')}      
+        <Button 
+        onPress={() => navigation.navigate('Home')}      
         title="LOGIN"
         />
         <TouchableOpacity onPress={() => navigation.navigate('Registrasi')}>
             <Text
             style={{ 
-            color: 'black',
-            fontSize: 20,
+            color: 'grey',
+            fontSize: 16,
             marginTop: 20,
             textAlign: "center"
             }}>Registrasi</Text>

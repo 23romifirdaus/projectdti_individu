@@ -37,9 +37,10 @@ const TopUpBerhasilScreen = ({ navigation }) => {
     </View>
     <View
       style={{
-        flex: 1,
+        flex: 2,
         marginHorizontal: 8,
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        marginTop:80
       }}
     >
       <View style={[{ width: "98%", height: 100, marginLeft: 4, justifyContent: 'center', alignItems: "center" }]}>

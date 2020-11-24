@@ -28,28 +28,29 @@ const PembayaranBerhasilScreen = ({ navigation }) => {
     >
     <View
       style={{
-        flex: 1,
+        flex: 2,
         justifyContent: "flex-end",
         alignItems: "center",
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        marginTop: 20
       }}
     >
     </View>
     <View
       style={{
-        flex: 1,
+        flex: 3,
         marginHorizontal: 8,
         backgroundColor: 'white'
       }}
     >
       <View style={[{ width: "98%", height: 100, marginLeft: 4, justifyContent: 'center', alignItems: "center" }]}>
         <Image style={styles.icon} source={require('../img/transaksi.png')}/>
-        <Text>Pembayaran Berhasil!</Text>
-        <Text>Rp. 60.000</Text>
+        <Text style={[{fontSize: 20}]}>Pembayaran Berhasil!</Text>
+        <Text style={[{fontSize: 20}]}>Rp. 60.000</Text>
         <View style={[{ width: "98%", height: 140, marginLeft: 4, marginTop: 10, backgroundColor: '#4982C1', justifyContent: 'center', alignItems: "center" }]}>
-        <Text>20 Agustus 2020</Text>
-        <Text>Penerima : DTI Telkom University</Text>
-        <Text>Jl. Ciparay No. 20B, Kota Bandung</Text>
+        <Text style={[{fontSize: 20}]}>20 Agustus 2020</Text>
+        <Text style={[{fontSize: 20}]}>Penerima : DTI Telkom University</Text>
+        <Text style={[{fontSize: 20}]}>Jl. Ciparay No. 20B, Kota Bandung</Text>
         </View>
         
         <View style={[{ width: "98%", height: 100, marginLeft: 4, justifyContent: 'center' }]}>
