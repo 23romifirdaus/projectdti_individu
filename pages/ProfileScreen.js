@@ -28,6 +28,10 @@ const styles = StyleSheet.create({
   fontSize: 18,
   height: 44,
   },
+  icon: {
+  alignSelf: "center",
+  marginTop: 20,
+  }
 });
 
 const ProfileScreen = ({ navigation }) => {
@@ -39,7 +43,7 @@ const ProfileScreen = ({ navigation }) => {
     >
       <View
       style={{
-        flex: 3,
+        flex: 2,
         backgroundColor: "#4982C1",
       }}
       >
@@ -48,7 +52,7 @@ const ProfileScreen = ({ navigation }) => {
           flex: 2,
         }}
         >
-          <Text style={[{ color: "white", alignSelf: "center", }]}>Foto Profil</Text>
+          <Image style={styles.icon} source={require('../img/foto.png')}/> 
         </View>
         <View
         style={{

@@ -46,7 +46,7 @@ const TransferBerhasilScreen = ({ navigation }) => {
         <Image style={styles.icon} source={require('../img/transaksi.png')}/>
         <Text style={[{fontSize: 24}]}>Top Up Berhasil!</Text>
         <Text style={[{fontSize: 24}]}>Rp. 60.000</Text>
-        <View style={[{ width: "80%", height: 100, marginLeft: 4, marginTop: 10, backgroundColor: '#4982C1', justifyContent: 'center', alignItems: "center" }]}>
+        <View style={[{ width: "80%", height: 100, marginLeft: 4, marginTop: 10, backgroundColor: '#4982C1', justifyContent: 'center', alignItems: "center", borderRadius: 20 }]}>
         <Text style={[{fontSize: 24}]}>20 Agustus 2020</Text>
         <Text style={[{fontSize: 24}]}>VA Mandiri</Text>
         </View>

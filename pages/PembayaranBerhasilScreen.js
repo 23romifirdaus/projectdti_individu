@@ -47,10 +47,10 @@ const PembayaranBerhasilScreen = ({ navigation }) => {
         <Image style={styles.icon} source={require('../img/transaksi.png')}/>
         <Text style={[{fontSize: 20}]}>Pembayaran Berhasil!</Text>
         <Text style={[{fontSize: 20}]}>Rp. 60.000</Text>
-        <View style={[{ width: "98%", height: 140, marginLeft: 4, marginTop: 10, backgroundColor: '#4982C1', justifyContent: 'center', alignItems: "center" }]}>
+        <View style={[{ width: "98%", height: 140, marginLeft: 4, marginTop: 10, backgroundColor: '#4982C1', justifyContent: 'center', alignItems: "center", borderRadius: 20 }]}>
         <Text style={[{fontSize: 20}]}>20 Agustus 2020</Text>
         <Text style={[{fontSize: 20}]}>Penerima : DTI Telkom University</Text>
-        <Text style={[{fontSize: 20}]}>Jl. Ciparay No. 20B, Kota Bandung</Text>
+        <Text style={[{fontSize: 20,marginBottom: 5}]}>Jl. Ciparay No. 20B, Kota Bandung</Text>
         </View>
         
         <View style={[{ width: "98%", height: 100, marginLeft: 4, justifyContent: 'center' }]}>

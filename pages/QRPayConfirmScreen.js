@@ -46,7 +46,7 @@ const QRPayConfirmScreen = ({ navigation }) => {
         }}
         />
         </View>
-        <View style={[{ width: "98%", height: 140, marginLeft: 4, backgroundColor: '#4982C1', justifyContent: 'center', alignItems: "center" }]}>
+        <View style={[{ width: "98%", height: 140, marginLeft: 4, backgroundColor: '#4982C1', justifyContent: 'center', alignItems: "center", borderRadius: 20 }]}>
         <Text style={[{fontSize: 20}]}>Pembayaran Kepada :</Text>
         <Text style={[{fontSize: 20}]}>DTI Telkom University</Text>
         <Text style={[{fontSize: 20}]}>Jl. Telekomunikasi, Kota Bandung</Text>
