@@ -43,7 +43,7 @@ const RegistrasiScreen = ({ navigation }) => {
     })
     .then(function (response) {
       if(response.data.status == "true"){
-        navigation.navigate('LoginScreen');
+        navigation.navigate('Login');
       }
       else {
         ToastAndroid.show(response.data.msg, ToastAndroid.SHORT);
@@ -108,7 +108,7 @@ const RegistrasiScreen = ({ navigation }) => {
       onChangeText={ text => setNomorHandphone(text)}
       />
       <Button 
-      title="Submit"
+      title="SUBMIT"
       onPress={() => {submitRegistrasi()}} 
       />
       </View>
